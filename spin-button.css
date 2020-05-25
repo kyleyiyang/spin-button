@@ -1,0 +1,15 @@
+.do-quantity-buttons .wc-product-table .cart .quantity input[type="number"]::-webkit-outer-spin-button,
+.do-quantity-buttons .wc-product-table .cart .quantity input[type="number"]::-webkit-inner-spin-button{
+	 -webkit-appearance: button !important;
+}
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):before,
+.do-quantity-buttons form .quantity:not(.buttons-added):not(.hidden):after {
+	display: none;
+}
+
+/* To hide the spin-buttons */
+
+.do-quantity-buttons .wc-product-table .cart .quantity input[type="number"]::-webkit-outer-spin-button,
+.do-quantity-buttons .wc-product-table .cart .quantity input[type="number"]::-webkit-inner-spin-button{
+	 -webkit-appearance: none;
+}
